@@ -1,0 +1,30 @@
+
+.gridBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  --bg-color: #000000;
+  --line-color: #ffffff20;
+  --animation-speed: 1s;
+  background-color: var(--bg-color);
+  background-image: linear-gradient(
+      to right,
+      var(--line-color) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, var(--line-color) 1px, transparent 1px);
+  background-size: 40px 40px;
+  animation: moveGrid var(--animation-speed) linear infinite;
+}
+
+@keyframes moveGrid {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 40px -40px;
+  }
+}
