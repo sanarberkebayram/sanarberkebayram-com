@@ -37,6 +37,7 @@ function WorkCard({ url, image, video, title, text, ribbons, color }) {
                                 src={video}
                                 controls
                                 autoPlay
+                                playsInline
                                 loop
                                 muted
                                 className="w-full h-full object-cover"
