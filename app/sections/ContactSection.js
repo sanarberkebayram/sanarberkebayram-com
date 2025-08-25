@@ -70,7 +70,7 @@ export default function ContactSection() {
                         <form
                             className="space-y-6"
                             ref={formRef}
-                            action="https://formsubmit.co/sanarberkebayram@gmail.com"
+                            action="https://formsubmit.co/2660bb2a25994e4b6925529bf89c70e1"
                             method="POST"
                         >
                             <h3 className="text-2xl font-semibold">Send DM</h3>
