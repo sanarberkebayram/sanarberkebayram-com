@@ -72,10 +72,6 @@ export default function BirthdayPage() {
               <h3 className="font-semibold text-blue-700">Huzur</h3>
             </div>
           </div>
-          
-          <button className="mt-8 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold py-3 px-8 rounded-full transform hover:scale-110 transition-transform duration-200 shadow-lg">
-            Beğendiysen Tıkla
-          </button>
         </div>
         
         <div className="mt-12 text-white text-sm">
