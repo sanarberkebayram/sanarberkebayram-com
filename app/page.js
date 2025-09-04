@@ -4,6 +4,8 @@ import AboutSection from "./sections/AboutSection";
 import ContactSection from "./sections/ContactSection";
 import HeroSection from "./sections/HeroSection";
 import WorkSection from "./sections/WorkSection";
+import GridBackground from "./components/GridBackground";
+import TopNavbar from "./components/TopNavbar";
 
 export default function Home() {
     return (
@@ -11,6 +13,8 @@ export default function Home() {
             <div className="hidden md:block">
                 <TargetCursor spinDuration={2} hideDefaultCursor={false} />
             </div>
+                <GridBackground />
+                <TopNavbar />
             <HeroSection />
             <AboutSection />
             <WorkSection/>
